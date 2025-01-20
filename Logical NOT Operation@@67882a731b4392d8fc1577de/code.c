@@ -6,6 +6,9 @@ int main(){
         printf("True");
 
     }
+    if(a==0){
+        printf("")
+    }
     else{
         printf("False");
     }
