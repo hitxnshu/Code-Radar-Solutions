@@ -4,7 +4,7 @@ int main(){
     if(num>=60){
         printf("Eligible");
     }
-    else{
+    else if(num<60){
         printf("Not Eligible");
     }
     return 0;
