@@ -8,4 +8,5 @@ int main(){
     else if(ch>'A' && ch<'Z'){
         printf("Uppercase");
     }
+    return 0;
 }
