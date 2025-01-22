@@ -3,15 +3,16 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[]={};
-    scanf("%d %d %d %d %d",&arr[0],&arr[1],&arr[2],&arr[3],&arr[4]);
+    for(int k=0;k<n;k++){
+    scanf("%d",&arr[k]);}
     int small = arr[0];
-    for(int i=0;i<5;i++){
+    for(int i=0;i<n;i++){
         if(small>arr[i]){
             small = arr[i];
         }
     }
     int great = arr[0];
-    for(int j =0;j<5;j++){
+    for(int j =0;j<n;j++){
     if(arr[j]>great){
         great = arr[j];
 
