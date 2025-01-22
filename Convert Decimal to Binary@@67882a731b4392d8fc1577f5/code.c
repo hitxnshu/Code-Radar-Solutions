@@ -11,5 +11,4 @@ int main(){
 
     }}
     printf("%d",store);
-    return 0;
 }
