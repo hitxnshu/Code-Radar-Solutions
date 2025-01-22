@@ -2,19 +2,19 @@
 int main(){
     char grade;
     scanf("%c",&grade);
-    if(ch == 'A'){
+    if(grade == 'A'){
         printf("Excellent");
     }
-    else if(ch=='B'){
+    else if(grade=='B'){
         printf("Good");
     }
-    else if(ch == 'C'){
+    else if(grade == 'C'){
         printf("Average");
     }
-    else if(ch == 'D'){
+    else if(grade == 'D'){
         printf("Below Average");
     }
-    else if(ch == 'F'){
+    else if(grade == 'F'){
         printf("Fail");
     }
 }
