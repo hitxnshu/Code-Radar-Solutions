@@ -3,7 +3,6 @@
 int main(){
     char ch;
     scanf("%c",ch);
-    ch = toupper(ch);
     if(ch== 'R'){
         printf("Stop");
     }
@@ -16,5 +15,6 @@ int main(){
     else{
         printf("Invalid input");
     }
+    return 0;
    
 }
