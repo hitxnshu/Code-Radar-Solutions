@@ -3,7 +3,7 @@
 int main(){
     char ch;
     scanf("%c",ch);
-    ch = toupper(ch)
+    ch = toupper(ch);
     if(ch== 'R'){
         printf("Stop");
     }
