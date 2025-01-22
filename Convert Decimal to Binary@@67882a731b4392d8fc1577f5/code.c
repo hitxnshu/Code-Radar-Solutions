@@ -9,6 +9,6 @@ int main(){
         multi = multi * 10;
         n = n / 2;
 
-    }}
-    printf("%d",store);
+    }
+    printf("%d",store);}
 }
