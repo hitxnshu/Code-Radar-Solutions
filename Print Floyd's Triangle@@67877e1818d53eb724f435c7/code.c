@@ -10,6 +10,6 @@ int main(){
             num = num + 1;
 
         }
-        print("\n");
+        printf("\n");
     }
 }
