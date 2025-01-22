@@ -12,8 +12,8 @@ int main(){
     }
     int great = arr[0];
     for(int j =0;j<5;j++){
-    if(arr[i]>great){
-        great = arr[i];
+    if(arr[j]>great){
+        great = arr[j];
 
     }}
     printf("%d %d",small,great);
