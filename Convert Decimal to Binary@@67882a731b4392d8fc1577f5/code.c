@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,temp,store,multi;
+    int n,temp,store,multi=1;
     scanf("%d",&n);
     while(n>0){
         temp = n % 2;
