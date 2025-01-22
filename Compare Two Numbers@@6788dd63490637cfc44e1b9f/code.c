@@ -11,4 +11,5 @@ int main(){
     else{
         printf("Equal");
     }
+    return 0;
 }
