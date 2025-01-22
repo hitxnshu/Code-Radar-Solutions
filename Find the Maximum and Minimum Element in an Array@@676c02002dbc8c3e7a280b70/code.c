@@ -18,6 +18,5 @@ int main(){
 
     }}
     printf("%d %d",small,great);
-    return 0;
 
 }
