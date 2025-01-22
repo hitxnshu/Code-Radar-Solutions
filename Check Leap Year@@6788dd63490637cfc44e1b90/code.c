@@ -5,14 +5,13 @@ int main(){
     if(year%4==0){
       if(year%100!=0){
         printf("Leap Year");
-        break;
       }
       else{
         printf("Not a Leap Year");
-        break;
+        
       }
     }
-    if(year%400==0){
+    else if(year%400==0){
         printf("Leap Year");
         break;
     }
