@@ -22,5 +22,6 @@ int main(){
     else if{day == 7}{
         printf("Sunday");
     }
+    return 0;
     
 }
