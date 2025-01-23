@@ -2,11 +2,11 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int *input;
+    int *arrt;
     int k;
-    input = malloc(n*sizeof(int));
+    arr = malloc(n*sizeof(int));
     for(k = 0; k < n ; k++){
-        scanf("%d",&input[k]);
+        scanf("%d",&arr[k]);
     }
     int small = arr[0];
     for(int i=0;i<n;i++){
@@ -21,6 +21,6 @@ int main(){
 
     }}
     printf("%d %d",small,great);
-    free(input);
+    free(arr);
 
 }
