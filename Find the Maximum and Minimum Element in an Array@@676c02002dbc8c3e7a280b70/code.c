@@ -2,10 +2,8 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int *arr;
-    int k;
-    arr = malloc(n*sizeof(int));
-    for(k = 0; k < n ; k++){
+    int *arr = malloc(n * sizeof(int));
+    for(int k = 0; k < n ; k++){
         scanf("%d",&arr[k]);
     }
     int small = arr[0],great = arr[0];
