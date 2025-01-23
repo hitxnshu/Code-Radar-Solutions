@@ -22,6 +22,12 @@ int main(){
             else if(i-j==5){
                 printf("0 ");
             }
+            else if(i-j==6){
+                printf("1 ");
+            }
+            else if(i-j==7){
+                printf("0 ");
+            }
         }
         printf("\n");
     }
