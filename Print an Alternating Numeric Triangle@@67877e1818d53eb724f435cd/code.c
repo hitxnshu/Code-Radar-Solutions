@@ -13,6 +13,15 @@ int main(){
             else if(i-j==2){
                 printf("1 ");
             }
+            else if(i-j==3){
+                printf("0 ");
+            }
+            else if(i-j==4){
+                printf("1 ");
+            }
+            else if(i-j==5){
+                printf("0 ");
+            }
         }
         printf("\n");
     }
