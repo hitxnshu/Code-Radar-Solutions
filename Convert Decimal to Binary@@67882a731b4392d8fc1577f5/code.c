@@ -7,7 +7,7 @@ int main(){
         return 0;
     }
     while(n<0){
-        new1 = -n;
+        int new1 = -n;
     }
     
     while(n>0){
