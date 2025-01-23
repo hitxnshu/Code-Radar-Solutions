@@ -2,7 +2,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int *arrt;
+    int *arr;
     int k;
     arr = malloc(n*sizeof(int));
     for(k = 0; k < n ; k++){
