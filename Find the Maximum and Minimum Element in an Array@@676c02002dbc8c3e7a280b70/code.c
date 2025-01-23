@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     int *arr;
     int k;
-    arr = (int *)malloc(n*sizeof(int));
+    arr = malloc(n*sizeof(int));
     for(k = 0; k < n ; k++){
         scanf("%d",&arr[k]);
     }
@@ -19,6 +19,5 @@ int main(){
     }}
     printf("%d %d",small,great);
     free(arr);
-    return 0;
 
 }
