@@ -8,16 +8,13 @@ int main(){
     for(k = 0; k < n ; k++){
         scanf("%d",&arr[k]);
     }
-    int small = arr[0];
+    int small = arr[0],great = arr[0];
     for(int i=0;i<n;i++){
         if(small>arr[i]){
             small = arr[i];
         }
-    }
-    int great = arr[0];
-    for(int j =0;j<n;j++){
-    if(arr[j]>great){
-        great = arr[j];
+    if(arr[i]>great){
+        great = arr[i];
 
     }}
     printf("%d %d",small,great);
