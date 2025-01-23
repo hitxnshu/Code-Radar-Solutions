@@ -12,7 +12,7 @@ int main(){
     }
     else {
         for(int j = 0;j<n;j++){
-            if(j==0 || j==n){
+            if(j==0 || j==n-1){
                 printf("*");
             }
         }
