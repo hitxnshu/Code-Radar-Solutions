@@ -3,10 +3,10 @@ int main(){
     int n;
     scanf("%d",&n);
     int *input;
-    int i;
+    int k;
     input = malloc(n*sizeof(int));
-    for(i = 0; i < n ; i++){
-        scanf("%d",&input[i]);
+    for(k = 0; k < n ; k++){
+        scanf("%d",&input[k]);
     }
     int small = arr[0];
     for(int i=0;i<n;i++){
