@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main(){
-    int n,temp = 0,store = 0 ,multi=1,temp1 = 0,store1 = 0,multi1 = 1;
+    int n,new1,temp = 0,store = 0 ,multi=1,temp1 = 0,store1 = 0,multi1 = 1;
     scanf("%d",&n);
     if(n==0){
         printf("0");
         return 0;
     }
     while(n<0){
-        int new1 = -n;
+         new1 = -n;
     }
     
     while(n>0){
