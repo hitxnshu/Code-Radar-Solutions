@@ -2,17 +2,14 @@
 int main(){
     char ch;
     scanf("%c",ch);
-    if(ch == 'R' || ch == 'r'){
+    if(ch == 'R'){
         printf("Stop");
     }
-    else if(ch =='G' || ch == 'g'){
+    else if(ch =='G'){
         printf("Go");
     }
-    else if(ch =='Y' || ch == 'y'){
+    else if(ch =='Y'){
         printf("Slow Down");
-    }
-    else{
-        printf("Invalid input");
     }
     return 0;
    
