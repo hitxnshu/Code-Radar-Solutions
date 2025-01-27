@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n;
+    int n,odd,even;
     scanf("%d",&n);
     int arr[n];
     for(int i = 0;i < n;i++){
@@ -8,10 +8,10 @@ int main(){
     }
     for(int i = 0;i < n;i++){
         if (arr[i] % 2 == 0){
-            int even = arr[i];
+            even = arr[i];
         }
         else {
-            int odd = arr[i];
+             odd = arr[i];
         }
     }
     printf("%d %d",even,odd);
