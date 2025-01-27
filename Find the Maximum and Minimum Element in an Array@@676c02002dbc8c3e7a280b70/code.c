@@ -16,7 +16,6 @@ int main(){
 
     }}
     printf("%d %d",small,great);
-    free(arr);
     return 0;
 
 }
