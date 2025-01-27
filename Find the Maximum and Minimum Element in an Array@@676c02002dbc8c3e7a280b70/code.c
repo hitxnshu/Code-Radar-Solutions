@@ -2,9 +2,9 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int *arr = (int*)malloc(n * sizeof(int));
-    for(int k = 0; k < n ; k++){
-        scanf("%d",&arr[k]);
+    int arr[n];
+    for(int i = 0;i < n;i++ ){
+        scanf("%d",&arr[i]);
     }
     int small = arr[0],great = arr[0];
     for(int i=0;i<n;i++){
