@@ -12,8 +12,9 @@ int main(){
             great = arr[i];
         }
     }
-    for(int a = 0;i< a;i++){
+
     for(int j = 1;j <100;j++){
+        for(int a = 0; a < n; a++){
         if((great - j) == arr[a]){
             scmall = arr[a];
         }
