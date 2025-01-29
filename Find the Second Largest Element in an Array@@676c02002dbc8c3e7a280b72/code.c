@@ -19,6 +19,6 @@ int main(){
             scmall = arr[a];
             break;
         }
+        printf("%d",scmall);
     }
-}
-printf("%d",scmall);}
+}}
