@@ -17,8 +17,8 @@ int main(){
         for(int a = 0; a < n; a++){
         if((great - j) == arr[a]){
             scmall = arr[a];
-            printf("%d",scmall);
             break;
         }
     }
+    printf("%d",scmall);
 }}
