@@ -13,10 +13,11 @@ int main(){
         printf("%d",a*b);
     }
     else if(c =='/'){
-        printf("%f",a/b);
-    }
-    else {
-        printf("error");
+        if(b!=0){
+        printf("%d",a/b);}
+        else{
+            printf("error");
+        }
     }
 
 }
