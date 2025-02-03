@@ -14,13 +14,8 @@ int main(){
         printf("Digit");
     }
     else{
-    if(ch>='A' & ch<='Z'){
-
-    }
-    else{
 
     
         printf("Special Character");
     }
-    }
-}
+ }
