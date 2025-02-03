@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char sentence[100];
-    fgets(sentence,sizeof(sentence),stdin);
-    printf("You entered: %s",sentence);
+    char string1[20],string2[20];
+    scanf("%s %s",&atring1,&string2);
+    printf("You entered: %s and %s",string1,string2);
 }
