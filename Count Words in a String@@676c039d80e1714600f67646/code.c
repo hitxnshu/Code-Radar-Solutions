@@ -6,7 +6,7 @@ int main(){
     int count = 0;
     int length = (sizeof(sen))/(sizeof(sen[0]));
     for(int i = 0;i < length;i++){
-        if(sen[i]==' ' && (sen[i-1]==c && sen[i-1]==c)){
+        if(sen[i]==' ' && (sen[i-1]==c && sen[i+1]==c)){
             count++;
         }
     }
