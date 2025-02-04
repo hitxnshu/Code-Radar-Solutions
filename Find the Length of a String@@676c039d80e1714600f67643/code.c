@@ -5,8 +5,9 @@ int main(){
     fgets(string,sizeof(string),stdin);
     int length = 0;
     length = strlen(string);
-    printf("%d",length);
-    if(length == 0 ){
+    if(string[0] == "/n"){
         printf("0");
     }
-}
+    else{
+    printf("%d",length);
+}}
