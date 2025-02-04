@@ -7,9 +7,9 @@ int main(){
         scanf("%d \n",&arr[i]);
     }
     int number = 0;
-    for(int i = 1;i < numb-1;i++){
-        if(arr[i]>arr[0] && arr[i]>arr[numb-1]){
-            number = arr[i];
+    for(int j = 1;j < numb-1;j++){
+        if(arr[j]>arr[0] && arr[j]>arr[numb-1]){
+            number = arr[j];
             break;
         }
     }
