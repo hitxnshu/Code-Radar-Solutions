@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     char string[30];
-    scanf("%s",&string);
+    fgets(string,sizeof(string),stdin);
     int length = (sizeof(string))/(sizeof(string[0]));
     printf("%d",length);
 }
