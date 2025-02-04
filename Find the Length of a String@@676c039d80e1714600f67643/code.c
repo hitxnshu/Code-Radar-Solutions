@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char string[];
+    char string[20];
     scanf("%s",string);
     int length = 0;
     length = (sizeof(string))/(sizeof(string[0]));
