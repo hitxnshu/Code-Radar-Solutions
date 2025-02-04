@@ -6,11 +6,12 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int m = 0;
+    int m,store = 0;
     scanf("%d",&m);
     for(int i=0;i<n;i++){
         if(arr[i]==m){
-            printf("%d",&i);
+            store = i;
+            printf("%d",store);
             break;
         }
     }
