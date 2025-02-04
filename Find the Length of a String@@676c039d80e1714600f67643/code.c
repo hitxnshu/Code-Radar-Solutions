@@ -5,7 +5,7 @@ int main(){
     fgets(string,sizeof(string),stdin);
     int length = 0;
     length = strlen(string);
-    if(string[0] == "/n"){
+    if(string[0] == '/n'){
         printf("0");
     }
     else{
