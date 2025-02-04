@@ -11,7 +11,7 @@ int main(){
         sum = (arr[n-1/2] + arr[(n-1/2)+1])/2;
     }
     else{
-        sum = arr[n-1/2];
+        sum = arr[n/2];
     }
     printf("%d",sum);
 }
