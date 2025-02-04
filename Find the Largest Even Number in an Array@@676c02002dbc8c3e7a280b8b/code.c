@@ -16,6 +16,7 @@ int main(){
         if(arr[i]%2==0){
             if(arr[i]>even){
                 even = arr[i];
+                found = 1;
             }
         }
     }
@@ -25,5 +26,4 @@ int main(){
 
 if(!found){
     printf("-1");
-    break;
 }printf("%d",even);}
