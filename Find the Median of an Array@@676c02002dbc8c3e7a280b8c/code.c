@@ -8,7 +8,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     if (n%2==0){
-        sum = arr[n/2] + arr[(n/2)+1];
+        sum = (arr[n/2] + arr[(n/2)+1])/2;
     }
     else{
         sum = arr[n/2];
