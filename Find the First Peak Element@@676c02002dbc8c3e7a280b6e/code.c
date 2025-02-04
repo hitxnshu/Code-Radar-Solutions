@@ -9,7 +9,7 @@ int main(){
     int number = 0;
 
     for(int j = 1;j < numb-1;j++){
-        if(arr[j]>arr[0] && arr[j]>arr[numb-2]){
+        if(arr[j]>arr[0] && arr[j]>arr[numb]){
             number = arr[j];
             printf("%d",number);
             break;
