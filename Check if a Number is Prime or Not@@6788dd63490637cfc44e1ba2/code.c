@@ -18,4 +18,5 @@ int isPrime(int n){
         else{
             printf("Not Prime");
         }
+        return 0;
     }
