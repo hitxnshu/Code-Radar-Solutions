@@ -18,6 +18,7 @@ int main(){
                 even = arr[i];
                 found = 1;
             }
+            found = 1;
         }
     }
 
