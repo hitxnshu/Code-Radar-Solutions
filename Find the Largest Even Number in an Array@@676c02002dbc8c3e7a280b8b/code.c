@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,even = 0;
+    int n,even = 0,found = 0;
     scanf("%d",&n);
     int arr[n];
     for(int i = 0;i < n;i++){
@@ -9,10 +9,7 @@ int main(){
     for(int i = 0;i < n;i++){
         if(arr[i]%2==0){
             even = arr[i];
-            break;
-        }
-        else{
-            printf("-1");
+            found = 1;
         }
         
     for(int i = 0;i < n;i++){
@@ -22,6 +19,10 @@ int main(){
             }
         }
     }
+
     
 
+}
+if(!found){
+    printf("-1");
 }printf("%d",even);}
