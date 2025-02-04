@@ -10,10 +10,10 @@ int main(){
         scanf("%d",&arr[i]);
     }
     if (n%2==0){
-        sum = (arr[k]+arr[k+1])/2;
+        sum = (arr[k-1]+arr[k])/2;
     }
     else{
-        sum = arr[n/2];
+        sum = arr[(n-1)/2];
     }
     printf("%d",sum);
 }
