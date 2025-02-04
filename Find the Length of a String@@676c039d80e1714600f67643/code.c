@@ -6,4 +6,7 @@ int main(){
     int length = 0;
     length = strlen(string);
     printf("%d",length);
+    if(length == 0 ){
+        printf("0");
+    }
 }
