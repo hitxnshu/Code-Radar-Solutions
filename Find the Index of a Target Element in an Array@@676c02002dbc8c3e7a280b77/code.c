@@ -7,15 +7,17 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int m,store = 0;
+    int found = 0;
     scanf("%d",&m);
     for(int i=0;i<n;i++){
         if(arr[i]==m){
             store = i;
             printf("%d",store);
+            found = 1;
             break;
         }
     }
-    else{
+    if(!found){
         printf("-1");
     }
 
