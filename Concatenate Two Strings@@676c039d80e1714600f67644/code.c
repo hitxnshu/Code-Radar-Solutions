@@ -4,6 +4,6 @@ int main(){
     fgets(string1,sizeof(string1),stdin);
     char string2[20];
     fgets(string2,sizeof(string2),stdin);
-    strcar(string1,string2);
+    strcat(string1,string2);
     printf("%s",string1);
 }
