@@ -7,7 +7,8 @@ int main(){
         count++;
         n = n / 10;
     }
-    int number = 10*(count-1);
+    int number = 0;
+    number =  10*(count-1);
     int ans = 0;
     ans = n ^ number;
     if(ans%2==0){
