@@ -9,6 +9,7 @@ int main(){
     for(int i = 0;i < n;i++){
         if(arr[i]%2==0){
             even = arr[i];
+            break;
         }
         else{
             printf("-1");
@@ -18,9 +19,6 @@ int main(){
         if(arr[i]%2==0){
             if(arr[i]>even){
                 even = arr[i];
-            }
-            else{
-                printf("-1");
             }
         }
     }
