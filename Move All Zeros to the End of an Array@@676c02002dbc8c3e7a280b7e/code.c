@@ -8,7 +8,7 @@ int main(){
     }
     for(int i = 0;i < n;i++){
         if(arr[i]==0){
-            arr[n-1] == arr[i];
+            arr[n-i] == arr[i];
         }
     }
     for(int i = 0;i < n;i++){
