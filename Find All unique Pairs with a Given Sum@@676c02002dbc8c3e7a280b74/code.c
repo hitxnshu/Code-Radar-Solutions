@@ -10,7 +10,7 @@ int main(){
     int printed = 0;
     scanf("%d",&target);
     for(int i = 0;i < n;i++){
-        for(int j = 0;j < n;j++){
+        for(int j = i+1;j < n;j++){
             if(i!=j){
                 if((arr[i]+arr[j])==target){
                     if(arr[i] == arr[j]){
