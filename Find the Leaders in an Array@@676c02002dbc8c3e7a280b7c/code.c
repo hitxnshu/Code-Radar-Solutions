@@ -15,7 +15,7 @@ int main(){
             }
         }
           if(isLeader){
-        printf("%d",num);
+        printf("%d ",num);
     }
     }
     }
