@@ -9,8 +9,9 @@ int main(){
     for(int i = 0; i < length;i++){
         if(string[i]==a){
             string[i] = b;
-            printf("%s",&string);
+            
         }
     }
+    printf("%s",&string);
     
 }
