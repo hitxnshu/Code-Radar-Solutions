@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,small = 0;
+    int n,small = 0,num = 0;
     scanf("%d",&n);
     int arr[n];
     for(int i = 0;i < n;i++){
@@ -15,8 +15,9 @@ int main(){
     for(int k = 0;k < 100;k++){
         for(int a = 0; a < n;a++){
         if((small+k) == arr[a]){
-            printf("%d",small+k);
+            num = small + k;
             break;
         }
     }}
+    printf("%d",num);
 }
