@@ -16,7 +16,6 @@ int main(){
         for(int a = 0; a < n;a++){
         if((small+k) == arr[a]){
             num = small + k;
-            break;
         }
     }}
     printf("%d",num);
