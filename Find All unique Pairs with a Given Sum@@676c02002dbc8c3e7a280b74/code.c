@@ -7,13 +7,16 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int target;
+    int printed = 0;
     scanf("%d",&target);
     for(int i = 0;i < n;i++){
         for(int j = i+1;j < n;j++){
             if(i!=j){
                 if((arr[i]+arr[j])==target){
+                    if(!printed){
                     printf("%d %d\n",arr[i],arr[j]);
-                }
+                    printed = 1;
+                }}
             }
         }
     }
