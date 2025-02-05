@@ -13,9 +13,10 @@ int main(){
                 found = 1;
             }
         }
-    }
-    if(found){
+          if(found){
         printf("%d",num);
-        found = 1;
     }
     }
+
+    }
+    
