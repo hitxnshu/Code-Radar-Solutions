@@ -9,6 +9,7 @@ int main(){
         for(int j = 0;j < n/2;j++){
             if (arr[j]!=arr[n-j]){
                 printf("NO");
+                break;
             }
             printf("YES");
         
