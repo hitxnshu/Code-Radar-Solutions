@@ -10,12 +10,14 @@ int main(){
         num = arr[i];
     for(int j = i+1;j < n;j++){
         if(arr[j]==num){
-            printf("%d",&arr[j]);
             found = 1;
             break;
         }
         if(!found){
             num = arr[i+1];
+        }
+        else{
+            printf("%d",num);
         }
     }}
 }
