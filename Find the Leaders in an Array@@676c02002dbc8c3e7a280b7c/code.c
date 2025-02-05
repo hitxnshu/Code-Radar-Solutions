@@ -16,5 +16,6 @@ int main(){
     }
     if(found){
         printf("%d",num);
+        found = 1;
     }
     }
