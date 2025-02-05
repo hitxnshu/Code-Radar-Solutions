@@ -16,3 +16,10 @@ int main(){
     printf("%s",string);
     
 }
+//mistakes
+//1.&string - string (in both scan and print)
+//using strlen instead of sizeof
+//also dont give new line when taking two char input
+//IMPORTANT- space before %c in scanf because scanf
+//✅ scanf(" %c", &a); → Skips any whitespace before reading a.
+//✅ scanf(" %c", &b); → Ensures b is read properly.
