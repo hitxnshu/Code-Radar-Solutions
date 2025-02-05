@@ -12,8 +12,8 @@ int main(){
             small = arr[j];
         }
     }
-    for(int k = 0;k < 100;k++){
-        for(int a = 0; a <= n;a++){
+    for(int k = 1;k < 100;k++){
+        for(int a = 0; a < n;a++){
         if((small+k) == arr[a]){
             num = small + k;
             break;
