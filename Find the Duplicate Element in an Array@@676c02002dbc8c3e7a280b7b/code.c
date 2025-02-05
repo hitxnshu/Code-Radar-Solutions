@@ -12,6 +12,7 @@ int main(){
         if(arr[j]==num){
             printf("%d",&arr[j]);
             found = 1;
+            break;
         }
         if(!found){
             num = arr[i+1];
