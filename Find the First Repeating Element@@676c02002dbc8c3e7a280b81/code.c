@@ -14,8 +14,8 @@ int main(){
         }
     }
 
-
+    }}
 
 if(found){
     printf("%d",num);
-}}
+}
