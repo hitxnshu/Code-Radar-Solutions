@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     while(n>0){
         temp = n%10;
-        if(temp == 0){
+        if(temp == '0'){
             count++;
         }
         n = n / 10;
