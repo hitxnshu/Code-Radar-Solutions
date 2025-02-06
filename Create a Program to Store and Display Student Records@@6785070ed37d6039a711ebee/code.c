@@ -14,6 +14,6 @@ int main(){
         scanf("%s",&si.name);
         printf("Name: %s, ",si.name);
         scanf("%f",&si.marks);
-        printf("Marks: %f\n",si.marks);
+        printf("Marks: %.2f\n",si.marks);
     }
 }
