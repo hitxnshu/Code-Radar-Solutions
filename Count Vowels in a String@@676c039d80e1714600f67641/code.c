@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
     char string[30];
-    scanf("%d",string);
+    scanf("%d",&string);
     int count = 0;
     int length = strlen(string);
     for(int i = 0;i < length,i++){
