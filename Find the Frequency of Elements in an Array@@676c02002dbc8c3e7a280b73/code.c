@@ -16,7 +16,7 @@ int main(){
         for(int j = i;j < n;j++){
         if(num==arr[j]){
                 count++;
-                visited[j]=1;
+                visited[i]=1;
             }
         }
         printf("%d %d\n",num,count);
