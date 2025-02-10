@@ -13,6 +13,7 @@ int main(){
                 }
             while(arr[i]>even);
             }
+            printf("-1");
             }
             printf("%d",even);
             }
