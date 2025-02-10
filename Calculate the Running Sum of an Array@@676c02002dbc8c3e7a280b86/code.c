@@ -10,6 +10,6 @@ int main(){
     printf("%d",arr[0]);
     for(int i = 1;i < n;i++){
         sum = sum + arr[i];
-        printf("%d",sum);
+        printf("%d ",sum);
     }
 }
