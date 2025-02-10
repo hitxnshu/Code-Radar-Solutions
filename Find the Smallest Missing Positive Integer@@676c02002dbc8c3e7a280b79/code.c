@@ -9,7 +9,7 @@ int main(){
     for(int j = 1;j < 1000;j++){
         for(int i = 0;i < n;i++){
             if(arr[i]==j){
-                continue;
+                pass;
             }
             nfound = 1;
             num = j; 
