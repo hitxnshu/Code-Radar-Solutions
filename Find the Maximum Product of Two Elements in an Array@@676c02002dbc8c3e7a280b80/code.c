@@ -6,12 +6,12 @@ int main(){
     for(int i = 0;i < n;i++){
         scanf("%d",&arr[i]);
     }
-    big = arr[0]*arr[1];
     for(int i = 0;i < n;i++){
         for(int j = i+1;j < n;j++){
-            while(big>(arr[i]*arr[j])){
-                big = arr[i]*arr[j];
-            }
+            do
+            {big = arr[i]*arr[j];}
+            while
+            (big>(arr[i]*arr[j]));
         }
     }
     printf("%d",big);
