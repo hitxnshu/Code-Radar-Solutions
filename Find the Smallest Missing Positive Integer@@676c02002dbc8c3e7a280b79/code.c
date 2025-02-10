@@ -8,10 +8,13 @@ int main(){
     }
     for(int j = 1;j < 1000;j++){
         for(int i = 0;i < n;i++){
-            if(arr[i]!=j){
-                printf("%d",j);
-                break;
+            if(arr[i]==j){
+                found = 1;
             }
+            found = 0;
         }
+    }
+    if(!found){
+        printf("%d",j);
     }
     }
