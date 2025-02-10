@@ -8,23 +8,9 @@ int main(){
     }
     for(int i = 0;i < n;i++){
         if(arr[i]%2==0){
-            even = arr[i];
-            found = 1;
-        }
-    }
-    for(int i = 0;i < n;i++){
-        if(arr[i]%2==0){
-            if(arr[i]>even){
-                even = arr[i];
-                found = 1;
+            do{even = arr[i]}
+            while(arr[i]>even);
             }
-            found = 1;
-        }
-    }
-
-    
-
-
-if(!found){
-    printf("-1");
-}printf("%d",even);}
+            }
+            printf("%d",even);
+            }
