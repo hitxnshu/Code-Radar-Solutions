@@ -6,16 +6,14 @@ int main(){
     for(int i = 0;i < n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int j = 1;j<1000;j++){
+    for(int j = 1;j < 1000;j++){
         for(int i = 0;i < n;i++){
             if(arr[i]==j){
-               continue;
+                continue;
             }
             else{
-                printf("%d",j);
-                break;
+                printf("%d",num);
             }
         }
     }
-
-}
+    }
