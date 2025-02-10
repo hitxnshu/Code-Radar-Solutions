@@ -9,8 +9,8 @@ int main(){
     for(int i = 0;i < n;i++){
         if(arr[i]%2==0){
             do{
-                even = arr[i]
-                };
+                even = arr[i];
+                }
             while(arr[i]>even);
             }
             }
