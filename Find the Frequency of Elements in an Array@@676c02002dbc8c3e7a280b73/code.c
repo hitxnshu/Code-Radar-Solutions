@@ -2,7 +2,7 @@
 int main(){
     int n,num = 0;
     scanf("%d",&n);
-    int arr[n];
+    int arr[n],visited[n];
     for(int i = 0;i < n;i++){
         scanf("%d",&arr[i]);
         visited[i] = 0;//here we have initialised visited array to mstop it from taking duplicate values
