@@ -8,11 +8,8 @@ int main(){
     }
     for(int j = 1;j < 1000;j++){
         for(int i = 0;i < n;i++){
-            if(arr[i]==j){
-                continue;
-            }
-            else{
-                printf("%d",num);
+            if(arr[i]!=j){
+                printf("%d",j);
             }
         }
     }
