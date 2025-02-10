@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,found = 0;
+    int n,nfound = 0;
     scanf("%d",&n);
     int arr[n];
     for(int i = 0;i < n;i++){
@@ -9,12 +9,12 @@ int main(){
     for(int j = 1;j < 1000;j++){
         for(int i = 0;i < n;i++){
             if(arr[i]==j){
-                found = 1;
+                continue;
             }
-            found = 0;
+            nfound = 1; 
         }
     }
-    if(!found){
+    if(nfound){
         printf("%d",j);
     }
     }
