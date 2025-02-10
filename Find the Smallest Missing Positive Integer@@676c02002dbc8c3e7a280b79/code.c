@@ -13,7 +13,7 @@ int main(){
             }
         }
     }
-    if(f!ound){
+    if(!found){
         printf("%d",j);
     }
     }
