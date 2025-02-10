@@ -10,7 +10,7 @@ int main(){
     }
     return 0;
 }
-int isPrime(int num){
+void isPrime(int num){
     int found = 0;
     for(int i = 2;i < num;i++){
        if(num%2==0){
@@ -18,9 +18,9 @@ int isPrime(int num){
        }
     }
     if(!found){
-        return 1;
+        printf("1");
     }
     else{
-        return 0;
+        printf("0");
     }
 }
