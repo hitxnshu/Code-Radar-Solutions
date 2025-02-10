@@ -7,9 +7,12 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i = 0;i < n;i++){
-        if(arr[i+1]>=arr[i]){
+        if(arr[i+1]>arr[i]){
             arr[i]=arr[i+1];
             printf("%d ",arr[i]);
+        }
+        else if(arr[i+1]==arr[i]){
+            printf("%d",arr[i]);
         }
     }
 }
