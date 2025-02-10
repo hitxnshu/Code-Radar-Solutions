@@ -3,7 +3,7 @@
 int isPrime(int num){
     int found = 0;
     if(num == 2){return 0;}
-    for(int i = 2;i < sqrt(num);i++){
+    for(int i = 2;i <= sqrt(num);i++){
        if(num%i==0){
         found = 1;
        }
