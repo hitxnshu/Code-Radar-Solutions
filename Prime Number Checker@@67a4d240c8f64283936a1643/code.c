@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int t;
+    int t,found = 0;
     scanf("%d",%t);
     while(t--){
         int num;
@@ -11,7 +11,7 @@ int main(){
     return 0;
 }
 int isPrime(int num){
-    int found = 0;
+    
     for(int i = 2;i < num;i++){
        if(num%2==0){
         found = 1;
