@@ -13,6 +13,7 @@ int main(){
             }
             nfound = 1;
             num = j; 
+            break;
         }
     }
     if(nfound){
