@@ -14,9 +14,13 @@ int main(){
     if(!sort){
         printf("Not Sorted");
     }
+    else if(n==1){
+        printf("Sorted");
+    }
     else{
         printf("Sorted");
     }
+
 
 
 }
