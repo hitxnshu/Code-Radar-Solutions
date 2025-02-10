@@ -1,14 +1,22 @@
 #include <stdio.h>
 int main(){
-    int n;
+    int n,sort = 0;
     scanf("%d",&n);
-    int arr[]={};
-    scanf("%d %d %d %d %d",&arr[0],&arr[1],&arr[2],&arr[3],&arr[4]);
-    if(arr[1]>arr[0] && arr[2]>arr[1] && arr[3]>arr[2] && arr[4]>arr[3]){
-        printf("Sorted");
+    int arr[n];
+    for(int i = 0;i < n;i++){
+        scanf("%d",&arr[i]);
     }
-    else{
+    for(int i = 0;i < n;i++){
+        if(arr[i+1]>arr[i]){
+            sort = 1;
+        }
+    }
+    if(!sort){
         printf("Not Sorted");
     }
-    return 0;
+    else{
+        printf("Sorted");
+    }
+
+
 }
