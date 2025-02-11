@@ -10,6 +10,7 @@ int main(){
             printf("No");
             yes = 0;
         }
+        yes = 1;
     }
     if(yes){
         printf("Yes");
