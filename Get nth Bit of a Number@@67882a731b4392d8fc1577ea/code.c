@@ -1,10 +1,8 @@
 #include<stdio.h>
-#include<math.h>
 int main(){
     int a,b,and = 0;
     scanf("%d %d",&a,&b);
-    float c = pow(2,b);
-    int d = c;
+    int c = (1<<b);
     and = a & d;
     if(and == 0){
         printf("0");
