@@ -9,9 +9,8 @@ int main(){
     for(int i = 0;i < n;i++){
         if(arr[i]==0){
             arr[n-i-1] = arr[i];
+            printf("%d",arr[i]);
         }
     }
-    for(int i = 0;i < n;i++){
-        printf("%d ",arr[i]);
-    }
+ 
 }
