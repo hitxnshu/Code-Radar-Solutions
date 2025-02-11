@@ -12,8 +12,9 @@ int main(){
                found = 1;
             }
         }
-    }
-    if(!found){
+           if(!found){
         printf("%d",j);
     }
+    }
+ 
     }
