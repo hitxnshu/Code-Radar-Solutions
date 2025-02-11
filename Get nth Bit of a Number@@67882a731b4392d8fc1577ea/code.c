@@ -3,12 +3,13 @@
 int main(){
     int a,b,and = 0;
     scanf("%d %d",&a,&b);
-    int c = (int)pow(2,b);
-    and = a & c;
+    float c = pow(2,b);
+    int d = c;
+    and = a & d;
     if(and == 0){
         printf("0");
     }
-    else if(and == c){
+    else if(and == d){
         printf("1");
     }
 }
