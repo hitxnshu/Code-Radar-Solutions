@@ -5,7 +5,7 @@ int main(){
     char string[20];
     scanf("%s",&string);
     int length = strlen(string);
-    for(int i = 0;i < (length/2);i++){
+    for(int i = 0;i < ((length/2)+1);i++){
         if(string[i]==string[length-i-1]){
             yes = 1;
         }
