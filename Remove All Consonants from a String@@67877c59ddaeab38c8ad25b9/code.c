@@ -8,7 +8,7 @@ int main(){
     for(int i = 0;i < length;i++){
         if((sen[i]>'a' && sen[i]<'z') || (sen[i]>'A' && sen[i]<'Z')){
             if(sen[i]!='a'&&sen[i]!='e'&&sen[i]!='i'&&sen[i]!='o'&&sen[i]!='u'&&sen[i]!='A'&&sen[i]!='E'&&sen[i]!='I'&&sen[i]!='O'&&sen[i]!='U'){
-                sen[i] = space;
+                sen[i] = sen[i+1];
                 
             }
         }
