@@ -10,7 +10,9 @@ int main(){
                 sen[i] = sen[i+1];
                 
             }
+            else{
+                printf("%c",sen[i]);
+            }
         }
     }
-    printf("%s",sen);
 }
