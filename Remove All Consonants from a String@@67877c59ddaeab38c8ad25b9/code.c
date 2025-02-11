@@ -3,7 +3,6 @@
 int main(){
     char sen[100];
     fgets(sen,sizeof(sen),stdin);
-    char space = '';
     int length = strlen(sen);
     for(int i = 0;i < length;i++){
         if((sen[i]>'a' && sen[i]<'z') || (sen[i]>'A' && sen[i]<'Z')){
