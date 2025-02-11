@@ -12,9 +12,10 @@ for(int i = 0;i < n;i++){
             if(arr[i]==arr[j]){
                 found = 1;
             }
+            int num = arr[i];
         }
     }
 }
 if(!found){
-    printf("%d",arr[i]);
+    printf("%d",num);
 }}
