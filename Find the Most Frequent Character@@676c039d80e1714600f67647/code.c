@@ -18,4 +18,14 @@ int main(){
     if(count > 0){
        printf("%c",ch1);
     }
+    else if(count == 0){
+        for(char ch2 = 'a';ch2 < 'z';ch2++){
+        for(int i = 0;i < lnegth;i++){
+            if(sen[i]==ch2){
+                printf("%c",ch2);
+                break;
+            }
+        }
+        }
+    }
 }
