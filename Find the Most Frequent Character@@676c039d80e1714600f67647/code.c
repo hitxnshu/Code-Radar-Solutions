@@ -16,6 +16,6 @@ int main(){
         }
     }
     if(count > 0){
-       printf("%d",ch1);
+       printf("%c",ch1);
     }
 }
