@@ -10,6 +10,7 @@ int main(){
         string[i] = string[length-i-1];
         string[length-i-1] = ch;
         printf("%c",string[i]);
+        printf("%c",string[length-i-1]);
 
     }
 }
