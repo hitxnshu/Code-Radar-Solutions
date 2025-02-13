@@ -13,3 +13,5 @@ int main(){
     }
     printf("%s",string);
 }
+//always print the string outside the loop for output
+//here we had to reverse until length/2
