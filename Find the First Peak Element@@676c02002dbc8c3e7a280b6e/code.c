@@ -1,19 +1,15 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    int numb;
-    scanf("%d",&numb);
-    int arr[numb];
-    for(int i = 0;i < numb;i++){
-        scanf("%d \n",&arr[i]);
+    int n;
+    scanf("%d",&n);
+    for(int i = 0;i < n;i++){
+        scanf("%d",&arr[i]);
     }
-    int number = 0;
-
-    for(int j = 1;j < numb-1;j++){
-        if(arr[j]>arr[0] && arr[j]>arr[numb+1]){
-            number = arr[j];
-            printf("%d",number);
-            break;
+    int temp = 0;
+    for(int i = 0;i < n;i++){
+        if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
+            temp = arr[i];
         }
     }
-    return 0;
+    printf("%d",temp);
 }
