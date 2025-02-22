@@ -18,7 +18,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int count = 0;
-    for(int i = 0;i < n;i++){
+    for(int i = 0;i < num;i++){
         if(isPrime(arr[i])){
             count++;
         }
