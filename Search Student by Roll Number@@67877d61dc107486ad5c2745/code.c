@@ -9,13 +9,14 @@ int main(){
     scanf("%d",&n);
     for(int i = 0;i < n;i++){
         struct record si;
-        scanf("%d",&s[i].num);
-        scanf("%s",&s[i].name);
-        scanf("%f",&s[i].marks);
+        scanf("%d",&si.num);
+        scanf("%s",&si.name);
+        scanf("%f",&si.marks);
     }
     int roll;
+    scanf("%d",&roll);
     for(int i = 0;i < n;i++){
-    if(roll == s[i].num){
+    if(roll == si.num){
         printf("Roll Number: %d, Name: %s, Marks: %.2f",si.num,si.name,si.marks);
     }}
 }
