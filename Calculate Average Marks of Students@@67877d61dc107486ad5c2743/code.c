@@ -12,9 +12,11 @@ int main(){
         scanf("%d",&si.num);
         scanf("%s",&si.name);
         scanf("%f",&si.marks);
-        temp = temp + si.marks;
     }
-    average = temp / n;
-    printf("Avverage Marks: %.2f",average);
+    for(int i = 0;i < n;i++){
+        temp = temp + si.marks;
+        average = temp / n;
+        printf("Avverage Marks: %.2f",average);
+    }
 
 }
