@@ -14,13 +14,16 @@ int main(){
         scanf("%f",&si[i].marks);
     }
     int roll;
+    int found = 0;
     scanf("%d",&roll);
     for(int i = 0;i < n;i++){
     if(roll == si[i].num){
         printf("Roll Number: %d, Name: %s, Marks: %.2f",si[i].num,si[i].name,si[i].marks);
-        return 0;
+        found = 1;
+        break;
 
     }}
+    if(!found){
     printf("Student not found");
-
+    }
 }
