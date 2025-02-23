@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 struct movieticket{
     char name[20];
     char type[20];
@@ -14,13 +15,13 @@ int main(){
         scanf("%s",&ticket[i].type);
         scanf("%f",&ticket[i].price);
     
-    if(ticket[i].type == Standard){
+    if(strcmp(ticket[i].type, "Standard") == 0){
         s = s + ticket[i].price;
     }
-      else if(ticket[i].type == Premium){
+      else if(strcmp(ticket[i].type, "Premium") == 0){
         p = p + ticket[i].price;
     }
-      else if(ticket[i].type == VIP){
+      else if(strcmp(ticket[i].type, "VIP") == 0){
         v = v + ticket[i].price;
     }
     }
