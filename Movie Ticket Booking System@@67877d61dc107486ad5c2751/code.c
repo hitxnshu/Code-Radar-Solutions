@@ -28,3 +28,5 @@ int main(){
 printf("Standard: %.2f, Premium: %.2f, VIP: %.2f",s,p,v);
 
 }
+//remember we cannot use == to compare strings
+//strcmp is used to compare strings in c
