@@ -18,5 +18,9 @@ int main(){
     for(int i = 0;i < n;i++){
     if(roll == si[i].num){
         printf("Roll Number: %d, Name: %s, Marks: %.2f",si[i].num,si[i].name,si[i].marks);
+        return 0;
+
     }}
+    printf("Student not found");
+
 }
