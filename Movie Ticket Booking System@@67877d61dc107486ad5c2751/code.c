@@ -14,7 +14,7 @@ int main(){
         scanf("%f",&movieticket.price[i]);
     }
     for(int i = 0;i < n;i++){
-        printf("%s: %.2f, ",movieticket.type,movieticket.price);
+        printf("%s: %.2f, ",movieticket[i].type,movieticket[i].price);
     }
 
 }
