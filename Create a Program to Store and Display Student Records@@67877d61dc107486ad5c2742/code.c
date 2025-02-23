@@ -12,7 +12,8 @@ int main(){
         scanf("%d",&si.num);
         scanf("%s",&si.name);
         scanf("%f",&si.marks);
-    }
-    for(int i = 0;i < n;i++){
+        for(int i = 0;i < n;i++){
     printf("%d %s %.1f",si.num,si.name,si.marks);
-}}
+    }
+    }
+}
