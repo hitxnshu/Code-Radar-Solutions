@@ -13,7 +13,7 @@ int main(){
         scanf("%s",&si.name);
         scanf("%f",&si.marks);
         for(int i = 0;i < n;i++){
-    printf("%d %s %.1f",si.num,si.name,si.marks);
+    printf("Roll Number: %d, Name: %s, Marks: %.1f\n",si.num,si.name,si.marks);
     }
     }
 }
