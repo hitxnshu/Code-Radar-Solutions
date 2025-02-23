@@ -21,3 +21,4 @@ for(int i = 0;i < n;i++){
         printf("Title: %s, Author: %s, Price: %.2f\n",b[i].title,b[i].author,b[i].price);
     }
 }}
+//keep in mind the format specifier for every element
