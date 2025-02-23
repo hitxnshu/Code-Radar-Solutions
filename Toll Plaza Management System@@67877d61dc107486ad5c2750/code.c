@@ -16,10 +16,10 @@ int main(){
         if(v[i].vehicle == Car){
            c = c + v[i].toll;
         }
-        if(v[i].vehicle == Truck){
+        else if(v[i].vehicle == Truck){
            t = t + v[i].toll;
         }
-        if(v[i].vehicle == Bike){
+        else if(v[i].vehicle == Bike){
            b = b + v[i].toll;
         }
         }
