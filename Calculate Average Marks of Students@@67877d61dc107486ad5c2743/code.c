@@ -8,12 +8,12 @@ int main(){
     int n;
     float temp = 0;
     scanf("%d",&n);
+    struct record s[n]
     for(int i = 0;i < n;i++){
-        struct record si;
-        scanf("%d",&si.num);
-        scanf("%s",&si.name);
-        scanf("%f",&si.marks);
-        temp = temp + si.marks;
+        scanf("%d",&s[i].num);
+        scanf("%s",&s[i].name);
+        scanf("%f",&s[i].marks);
+        temp = temp + s[i].marks;
     }
        int average = temp / n;
         printf("Average Marks: %.2f",average);
