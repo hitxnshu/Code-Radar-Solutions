@@ -8,8 +8,8 @@ int main(){
     scanf("%d",&n);
     struct rectangle r[n];
     for(int i = 0;i < n;i++){
-        scanf("%f",r[i].length);
-        scanf("%f",r[i].breadth);
+        scanf("%f",&r[i].length);
+        scanf("%f",&r[i].breadth);
     }
     float area,perimeter;
     for(int i = 0;i < n;i++){
