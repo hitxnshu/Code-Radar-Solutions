@@ -12,7 +12,7 @@ int main(){
         scanf("%d",&e[i].id);
         scanf("%s",&e[i].name);
         scanf("%f",&e[i].bonus);
-        printf("Employee ID: %d, Name: %s, Bonus: %2f",e[i].id,e[i].name,e[i].bonus);
+        printf("Employee ID: %d, Name: %s, Bonus: %.2f",e[i].id,e[i].name,e[i].bonus);
 
     }
 
