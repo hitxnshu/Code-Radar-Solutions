@@ -2,7 +2,7 @@
 struct library{
     char title[20];
     char author[20];
-    int price;
+    float price;
 };
 int main(){
 int n;
@@ -14,7 +14,7 @@ for(int i = 0;i < n;i++){
     scanf("%.2f",&b[i].price);
 }
 float threshold;
-scanf("%.2f",&threshold);
+scanf("%f",&threshold);
 printf("Books above price %.2f:",threshold);
 for(int i = 0;i < n;i++){
     if(b[i].price>=threshold){
