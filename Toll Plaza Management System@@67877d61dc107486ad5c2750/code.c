@@ -1,6 +1,6 @@
 #include<stdio.h>
 struct record {
-    int number[20];
+    char number[20];
     char vehicle[20];
     float toll;
 };
