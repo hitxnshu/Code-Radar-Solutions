@@ -1,6 +1,6 @@
 #include<stdio.h>
 struct record {
-    int number;
+    int number[20];
     char vehicle[20];
     float toll;
 };
@@ -10,7 +10,7 @@ int main(){
     scanf("%d",&n);
     struct record v[n];
     for(int i = 0;i < n;i++){
-        scanf("%d",&v[i].number);
+        scanf("%s",&v[i].number);
         scanf("%s",&v[i].vehicle);
         scanf("%f",&v[i].toll);
         if(v[i].vehicle == Car){
