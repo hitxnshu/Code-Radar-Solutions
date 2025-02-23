@@ -3,7 +3,7 @@ struct record{
     int num;
     char name[20];
     float marks;
-}
+};
 int main(){
     int n;
     int found = 1;
