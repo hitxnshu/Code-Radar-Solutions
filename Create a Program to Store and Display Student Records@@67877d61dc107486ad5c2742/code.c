@@ -12,6 +12,6 @@ int main(){
         scanf("%d",&si.num);
         scanf("%s",&si.name);
         scanf("%f",&si.marks);
-        printf("Roll Number: %d, Name: %s, Marks: %.1f\n",si.num,si.name,si.marks);
+        printf("Roll Number: %d, Name: %s, Marks: %.2f\n",si.num,si.name,si.marks);
     }
 }
