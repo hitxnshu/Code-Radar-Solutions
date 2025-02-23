@@ -5,7 +5,7 @@ struct record {
     float marks;
 };
 int main(){
-    int n,temp = 0,average = 0;
+    int n,temp = 0;
     scanf("%d",&n);
     for(int i = 0;i < n;i++){
         struct record si;
@@ -16,7 +16,7 @@ int main(){
     for(int i = 0;i < n;i++){
         temp = temp + si.marks;
         }
-        average = temp / n;
+       int average = temp / n;
         printf("Avverage Marks: %.2f",average);
 
 }
