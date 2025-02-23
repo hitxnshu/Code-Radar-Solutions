@@ -7,7 +7,7 @@ struct subscription {
 };
 int main(){
     int n;
-    float b,p,s;
+    float b,p,st;
     int count1 = 0,count2 = 0,count3 = 0;
     scanf("%d",&n);
     struct subscription s[n];
@@ -20,7 +20,7 @@ int main(){
            count1++;
         }
         else if(strcmp(s[i].type, "Standard") == 0){
-           s = s + s[i].cost;
+           st = st + s[i].cost;
            count2++;
         }
         else if(strcmp(s[i].type, "Premium") == 0){
@@ -28,7 +28,7 @@ int main(){
            count3++;
         }
         }
-        printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f",count1,b,count2,s,count3,p);
+        printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f",count1,b,count2,st,count3,p);
     
 
 
