@@ -7,7 +7,7 @@ struct movieticket{
 int main(){
     int n;
     scanf("%d",&n);
-    struct movieticket[n];
+    struct movieticket tickets[n];
     for(int i = 0;i < n;i++){
         scanf("%s",&movieticket[i].name);
         scanf("%s",&movieticket[i].type);
