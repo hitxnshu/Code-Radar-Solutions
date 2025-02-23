@@ -3,7 +3,7 @@ struct library{
     char title[20];
     char author[20];
     int price;
-}
+};
 int n;
 scanf("%d",&n);
 struct library b[n];
