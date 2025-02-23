@@ -11,11 +11,11 @@ struct library b[n];
 for(int i = 0;i < n;i++){
     scanf("%s",&b[i].title);
     scanf("%s",&b[i].author);
-    scanf("%.2f",&b[i].price);
+    scanf("%f",&b[i].price);
 }
 float threshold;
 scanf("%f",&threshold);
-printf("Books above price %f:\n",threshold);
+printf("Books above price %.2f:\n",threshold);
 for(int i = 0;i < n;i++){
     if(b[i].price>=threshold){
         printf("Title: %s, Author: %s, Price: %.2f\n",b[i].title,b[i].author,b[i].price);
