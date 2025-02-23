@@ -9,9 +9,9 @@ int main(){
     scanf("%d",&n);
     struct movieticket[n];
     for(int i = 0;i < n;i++){
-        scanf("%s",&movieticket.name[i]);
-        scanf("%s",&movieticket.type[i]);
-        scanf("%f",&movieticket.price[i]);
+        scanf("%s",&movieticket[i].name);
+        scanf("%s",&movieticket[i].type);
+        scanf("%f",&movieticket[i].price);
     }
     for(int i = 0;i < n;i++){
         printf("%s: %.2f, ",movieticket[i].type,movieticket[i].price);
