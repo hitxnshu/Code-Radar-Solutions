@@ -19,7 +19,7 @@ int main(){
         if(e[i].salary<50000){
             printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",e[i].id,e[i].name,(e[i].salary * 0.1));
         }
-        else if(e[i].salary>50000){
+        else if(e[i].salary>=50000){
             printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",e[i].id,e[i].name,(e[i].salary * 0.05));
         }
     }
