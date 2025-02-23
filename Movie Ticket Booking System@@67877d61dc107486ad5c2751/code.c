@@ -3,7 +3,7 @@ struct movieticket{
     char name[20];
     char type[20];
     float price;
-}
+};
 int main(){
     int n;
     scanf("%d",&n);
