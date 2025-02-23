@@ -17,6 +17,6 @@ int main(){
         temp = temp + si.marks;
         }
        int average = temp / n;
-        printf("Avverage Marks: %.2f",average);
+        printf("Average Marks: %.2f",average);
 
 }
