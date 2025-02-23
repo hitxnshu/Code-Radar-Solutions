@@ -6,7 +6,7 @@ struct movieticket{
 };
 int main(){
     int n;
-    float s=0,p=0,v=0;
+    float s,p,v;
     scanf("%d",&n);
     struct movieticket ticket[n];
     for(int i = 0;i < n;i++){
