@@ -12,7 +12,7 @@ for(int i = 0;i < n;i++){
     scanf("%s",&b[i].author);
     scanf("%f",&b[i].price);
 }
-int threshold;
+float threshold;
 scanf("%d",&threshold);
 for(int i = 0;i < n;i++){
     if(b[i].price>=threshold){
