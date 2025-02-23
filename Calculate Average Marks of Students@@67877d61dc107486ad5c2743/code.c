@@ -8,7 +8,7 @@ int main(){
     int n;
     float temp;
     scanf("%d",&n);
-    struct record s[n]
+    struct record s[n];
     for(int i = 0;i < n;i++){
         scanf("%d",&s[i].num);
         scanf("%s",&s[i].name);
