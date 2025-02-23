@@ -6,7 +6,7 @@ struct record {
 };
 int main(){
     int n;
-    float temp;
+    float temp = 0;
     scanf("%d",&n);
     for(int i = 0;i < n;i++){
         struct record si;
