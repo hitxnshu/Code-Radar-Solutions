@@ -15,8 +15,8 @@ int main(){
     }
     for(int i = 0;i < n;i++){
         temp = temp + si.marks;
+        }
         average = temp / n;
         printf("Avverage Marks: %.2f",average);
-    }
 
 }
