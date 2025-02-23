@@ -2,7 +2,7 @@
 struct record {
     int id;
     char name[20];
-    float bonus;
+    float salary;
 };
 int main(){
     int n;
@@ -11,9 +11,17 @@ int main(){
     for(int i = 0;i < n;i++){
         scanf("%d",&e[i].id);
         scanf("%s",&e[i].name);
-        scanf("%f",&e[i].bonus);
-        printf("Employee ID: %d, Name: %s, Bonus: %.2f",e[i].id,e[i].name,e[i].bonus);
+        scanf("%f",&e[i].salary);
+        
 
+    }
+    for(int i = 0;i < n;i++){
+        if(s[i].salary<50000){
+            printf("Employee ID: %d, Name: %s, Bonus: %.2f",e[i].id,e[i].name,(e[i].salary * 0.1));
+        }
+        else if(s[i].salary>50000){
+            printf("Employee ID: %d, Name: %s, Bonus: %.2f",e[i].id,e[i].name,(e[i].salary * 0.05));
+        }
     }
 
 }
