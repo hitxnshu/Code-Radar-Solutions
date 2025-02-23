@@ -15,20 +15,20 @@ int main(){
         scanf("%s",&s[i].name);
         scanf("%s",&s[i].type);
         scanf("%f",&s[i].cost);
-        if(strcmp(v[i].type, "Basic") == 0){
-           b = b + v[i].cost;
+        if(strcmp(s[i].type, "Basic") == 0){
+           b = b + s[i].cost;
            count1++;
         }
-        else if(strcmp(v[i].type, "Standard") == 0){
-           s = s + v[i].cost;
+        else if(strcmp(s[i].type, "Standard") == 0){
+           s = s + s[i].cost;
            count2++;
         }
-        else if(strcmp(v[i].type, "Premium") == 0){
-           p = p + v[i].cost;
+        else if(strcmp(s[i].type, "Premium") == 0){
+           p = p + s[i].cost;
            count3++;
         }
         }
-        printf("Basic: %d Users, Revenue: %.2f, Standard: %d Users, Revenue: %.2f, Premium: %d Users, Revenue: %.2f",b,count1,s,count2,p,count3);
+        printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f",count1,b,count2,s,count3,p);
     
 
 
