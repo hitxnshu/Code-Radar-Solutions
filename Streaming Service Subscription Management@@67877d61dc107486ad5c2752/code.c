@@ -10,7 +10,7 @@ int main(){
     float b,p,s;
     int count1 = 0,count2 = 0,count3 = 0;
     scanf("%d",&n);
-    struct record s[n];
+    struct subscription s[n];
     for(int i = 0;i < n;i++){
         scanf("%s",&s[i].name);
         scanf("%s",&s[i].type);
