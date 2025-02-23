@@ -16,10 +16,10 @@ int main(){
 
     }
     for(int i = 0;i < n;i++){
-        if(s[i].salary<50000){
+        if(s[i].salary<50000.00){
             printf("Employee ID: %d, Name: %s, Bonus: %.2f",e[i].id,e[i].name,(e[i].salary * 0.1));
         }
-        else if(s[i].salary>50000){
+        else if(s[i].salary>50000.00){
             printf("Employee ID: %d, Name: %s, Bonus: %.2f",e[i].id,e[i].name,(e[i].salary * 0.05));
         }
     }
