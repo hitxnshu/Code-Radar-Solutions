@@ -10,7 +10,7 @@ struct library b[n];
 for(int i = 0;i < n;i++){
     scanf("%s",&b[i].title);
     scanf("%s",&b[i].author);
-    scanf("%f",&b[i].price);
+    scanf("%.2f",&b[i].price);
 }
 float threshold;
 scanf("%d",&threshold);
