@@ -9,6 +9,7 @@ int main(){
         if(string[i]!=string[length-i-1]){
             yes = 0;
             printf("No");
+            break;
         }
     }
     if(yes){
