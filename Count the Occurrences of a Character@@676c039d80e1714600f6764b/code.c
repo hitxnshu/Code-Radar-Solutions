@@ -5,7 +5,7 @@ int main(){
     char string[20];
     scanf("%s",&string);
     char ch;
-    scanf("%c",&ch);
+    scanf(" %c",&ch);
     char ch1 = toupper(ch);
     int count = 0;
     int length = strlen(string);
