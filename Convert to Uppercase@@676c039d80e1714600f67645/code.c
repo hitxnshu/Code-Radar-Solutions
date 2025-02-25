@@ -8,7 +8,7 @@ int main(){
     int length = strlen(string);
     for(int i = 0;i < length;i++){
        string1[i] = toupper(string[i]);
-       printf("%s",string1[i]);
+       printf("%c",string1[i]);
     }
 
 }
