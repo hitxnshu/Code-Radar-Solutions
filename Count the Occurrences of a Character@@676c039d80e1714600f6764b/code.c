@@ -16,3 +16,9 @@ int main(){
     }
     printf("%d",count);
 }
+
+//MISTAKE
+/*Issue with scanf("%c", &ch); after string input.
+When using scanf("%s", string);, the newline character ('\n') remains in the input buffer.
+So, scanf("%c", &ch); captures this newline instead of the actual character input.
+Fix: Use scanf(" %c", &ch); (with a space before %c) to consume any leftover whitespace */
