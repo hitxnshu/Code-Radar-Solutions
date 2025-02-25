@@ -1,20 +1,19 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    int yes = 0;
+    int yes = 1;
     char string[20];
     scanf("%s",&string);
     int length = strlen(string);
     for(int i = 0;i < ((length/2)+1);i++){
-        if(string[i]==string[length-i-1]){
-            yes = 1;
+        if(string[i]!=string[length-i-1]){
+            yes = 0;
+            printf("No");
         }
     }
-    if(!yes){
-        printf("No");
-    }
-    else{
+    if(yes){
         printf("Yes");
     }
+
 
 }
