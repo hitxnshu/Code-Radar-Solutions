@@ -2,6 +2,7 @@
 #include<string.h>
 int main(){
     char string[20];
+    char ch1;
     int nrep = 1;
     scanf("%s",&string);
     int length = strlen(string);
@@ -11,9 +12,13 @@ int main(){
         if(string[j]==ch){
             nrep= 0;
             printf("-");
+            break;
+        }
+        else{
+            ch1 = ch;
         }
     }}
     if(!nrep){
-        printf("%c",string[i]);
+        printf("%c",ch1);
     }
 }
