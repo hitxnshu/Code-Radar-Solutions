@@ -7,7 +7,7 @@ int main(){
     fgets(sen,sizeof(sen),stdin);
     int count = 0;
     int length = strlen(sen);
-    if(strcmp(sen, " ") == 0){
+    if(strcmp(sen, "\n") == 0){
         printf("0");
     }
     else{
