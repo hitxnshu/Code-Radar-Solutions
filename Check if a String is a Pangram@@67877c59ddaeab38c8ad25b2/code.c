@@ -13,6 +13,7 @@ int main(){
         if(sen[i]!=ch1){
             pangram = 0;
             printf("No");
+            break;
         }
     }
     }
