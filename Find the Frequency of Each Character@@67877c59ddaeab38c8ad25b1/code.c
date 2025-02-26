@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-int main{
+int main(){
     char string[30];
     char ch;
     int count = 0;
