@@ -5,7 +5,7 @@ int main(){
     char sen[100];
     int pangram = 1;
     fgets(sen,sizeof(sen),stdin);
-    int length = strlen(string);
+    int length = strlen(sen);
     for(char ch = 'a';ch <= 'z'){
         char ch1 = ch;
     for(int i = 0;i < length;i++){
