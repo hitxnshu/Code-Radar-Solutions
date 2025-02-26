@@ -8,7 +8,6 @@ int main(){
     for(int i = 0;i < length;i++){
         if(string[i]==0 || string[i]==1){
             yes = 1;
-            break;
         }
         
     }
