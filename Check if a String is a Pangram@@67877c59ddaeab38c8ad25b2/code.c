@@ -9,7 +9,7 @@ int main(){
     for(char ch = 'a';ch <= 'z';ch++){
         char ch1 = ch;
     for(int i = 0;i < length;i++){
-        sen[i] = tolower(string[i]);
+        sen[i] = tolower(sen[i]);
         if(sen[i]!=ch1){
             pangram = 0;
             printf("No");
