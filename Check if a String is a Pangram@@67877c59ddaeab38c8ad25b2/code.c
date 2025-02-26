@@ -6,7 +6,7 @@ int main(){
     int pangram = 1;
     fgets(sen,sizeof(sen),stdin);
     int length = strlen(sen);
-    for(char ch = 'a';ch <= 'z'){
+    for(char ch = 'a';ch <= 'z';ch++){
         char ch1 = ch;
     for(int i = 0;i < length;i++){
         string[i] = tolower(string[i]);
