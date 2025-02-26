@@ -8,7 +8,8 @@ int main(){
     int length = strlen(string);
     for(int i = 0;i < length;i++){
         ch = string[i];
-        for(int j = i+1;j < length;j++){
+        
+        for(int j = i;j < length;j++){
             if(string[j]==ch){
                 count++;
             }
