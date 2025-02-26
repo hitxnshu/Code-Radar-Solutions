@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 #include<string.h>
 #include<ctype.h>
 int main(){
@@ -6,7 +6,7 @@ int main(){
     char c;
     fgets(sen,sizeof(sen),stdin);
     int count = 0;
-    int length = (sizeof(sen))/(sizeof(sen[0]));
+    int length = strlen(sen);
     if(strcmp(sen,' ') == 0){
         printf("0");
     }
