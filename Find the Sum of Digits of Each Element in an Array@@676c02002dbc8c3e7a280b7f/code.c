@@ -9,7 +9,7 @@ int main() {
     }
     for(int i = 0;i < n;i++){
         while(arr[i]>0){
-        temp = arr[i]/10;
+        temp = arr[i]%10;
         sum = sum + temp;
         temp = temp / 10;
     }
