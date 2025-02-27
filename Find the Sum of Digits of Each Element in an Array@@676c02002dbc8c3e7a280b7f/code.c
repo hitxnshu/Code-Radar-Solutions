@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main() {
     int n;
-    int temp = 0,sum = 0;
     scanf("%d",&n);
     int arr[n];
     for(int i = 0;i < n;i++){
@@ -9,6 +8,7 @@ int main() {
     }
     for(int i = 0;i < n;i++){
         int num = arr[i];
+        int sum = 0,temp = 0;
         while(num>0){
         temp = num % 10;
         sum = sum + temp;
