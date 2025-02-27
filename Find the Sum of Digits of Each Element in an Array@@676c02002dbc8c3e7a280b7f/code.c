@@ -18,3 +18,6 @@ int main() {
     printf("%d ",sum);
     }
 }
+//MISTAKES
+//sum declared in loop so that it revalues to zero every time
+//abs to handle negative numbers
