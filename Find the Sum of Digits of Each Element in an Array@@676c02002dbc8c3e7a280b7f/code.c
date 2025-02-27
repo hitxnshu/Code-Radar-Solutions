@@ -1,18 +1,18 @@
 #include <stdio.h>
-int sum(int n){
-    temp = n % 10;
-    sum = sum + temp;
-    n = n / 10;
-}
 int main() {
     int n;
+    int temp = 0,sum = 0;
     scanf("%d",&n);
     int arr[n];
     for(int i = 0;i < n;i++){
         scanf("%d",&arr[i]);
     }
     for(int i = 0;i < n;i++){
-        sum(arr[i]);
-        printf("%d",sum);
+        while(arr[i]>0){
+        temp = arr[i]/10;
+        sum = sum + temp;
+        temp = temp / 10;
+    }
+    printf("%d",sum);
     }
 }
