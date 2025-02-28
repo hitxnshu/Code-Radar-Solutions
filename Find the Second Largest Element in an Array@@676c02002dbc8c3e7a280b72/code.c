@@ -17,7 +17,7 @@ int main(){
     for(int j = 1;j <100;j++){
         for(int i = 0; i < n; i++){
         if((great - j) == arr[i]){
-            num = arr[i]
+            num = arr[i];
             printf("%d",num);
             break;
         }
