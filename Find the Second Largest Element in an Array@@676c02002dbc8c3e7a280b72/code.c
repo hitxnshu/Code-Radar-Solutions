@@ -18,7 +18,7 @@ int main(){
         for(int i = 0; i < n; i++){
         if((great - j) == arr[i]){
             num = arr[i];
-            printf("%d",num);
+            printf("%d ",num);
             break;
         }
     }
