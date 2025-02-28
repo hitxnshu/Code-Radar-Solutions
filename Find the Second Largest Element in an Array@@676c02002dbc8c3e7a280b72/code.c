@@ -29,3 +29,5 @@ int main(){
 if(!found){
     printf("-1");
 }}
+//MISTAKE
+//here we wrote break instead of return 0 ,therefore we couldnt come come out of 'j' vala loop
