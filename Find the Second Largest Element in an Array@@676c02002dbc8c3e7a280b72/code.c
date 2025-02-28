@@ -19,7 +19,7 @@ int main(){
         if((great - j) == arr[i]){
             num = arr[i];
             printf("%d ",num);
-            break;
+            return 0;
         }
     }
     
