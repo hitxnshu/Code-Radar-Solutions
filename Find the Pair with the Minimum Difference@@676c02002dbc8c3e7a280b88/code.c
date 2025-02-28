@@ -9,10 +9,10 @@ int main(){
     }
     int n1 = 0,n2 = 0;
     int diff = abs(arr[0] - arr[1]);
-    for(int j = 1;j < n;j++){
-        if(abs(arr[j]-arr[j+1]) > diff){
-             n1 = arr[j];
-             n2 = arr[j+1];
+    for(int j = 2;j < n;j++){
+        if(abs(arr[j-1]-arr[j]) > diff){
+             n1 = arr[j-1];
+             n2 = arr[j];
         }
     }
     if(n1>n2){
