@@ -13,7 +13,8 @@ int main(){
         if(arr[j]>num){
             num == arr[j];
         }
-        printf("%d",num);
+        
        }
+       printf("%d",num);
     }
 }
