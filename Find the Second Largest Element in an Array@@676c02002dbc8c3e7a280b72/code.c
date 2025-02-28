@@ -13,14 +13,19 @@ int main(){
         }
     }
     int num = 0;
+    int found = 0;
 
     for(int j = 1;j <100;j++){
         for(int i = 0; i < n; i++){
         if((great - j) == arr[i]){
+            found = 1;
             num = arr[i];
             printf("%d ",num);
             return 0;
         }
     }
     
+}
+if(!found){
+    printf("-1");
 }}
