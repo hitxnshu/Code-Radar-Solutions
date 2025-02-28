@@ -21,7 +21,6 @@ int main(){
             printf("%d",num);
             break;
         }
-        break;
     }
     
 }}
