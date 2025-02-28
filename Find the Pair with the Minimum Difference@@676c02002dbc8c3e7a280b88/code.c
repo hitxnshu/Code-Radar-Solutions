@@ -10,7 +10,7 @@ int main(){
     int n1 = 0,n2 = 0;
     int diff = abs(arr[0] - arr[1]);
     for(int j = 1;j < n;j++){
-        if((arr[j]-arr[j+1]) > diff){
+        if(abs(arr[j]-arr[j+1]) > diff){
              n1 = arr[j];
              n2 = arr[j+1];
         }
