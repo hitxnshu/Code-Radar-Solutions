@@ -7,8 +7,8 @@ int main(){
     for(int i = 0;i < n;i++){
         scanf("%d",&arr[i]);
     }
-    int n1 = 0,n2 = 0;
-    int diff = abs(arr[0] - arr[1]);
+    int n1 = arr[0],n2 = arr[1];
+    int diff = abs(n1-n2);
     for(int j = 2;j < n;j++){
         if(abs(arr[j-1]-arr[j]) > diff){
              n1 = arr[j-1];
