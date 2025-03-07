@@ -1,4 +1,4 @@
-#include<stdio.h>
+
 int fibonacciSeries(int num){
     int a = 0;
     int b = 1,c;
@@ -15,16 +15,4 @@ int fibonacciSeries(int num){
         b = c;
 
     }
-}
-
-int main() {
-    int n;
-    scanf("%d",&n);
-    if(n<=0){
-        printf("Invalid input\n");
-        return 0;
-    }
-    fibonacciSeries(n);
-    return 0;
-
 }
