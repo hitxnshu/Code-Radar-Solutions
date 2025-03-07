@@ -1,6 +1,7 @@
 #include<stdio.h>
 int fibonacciSeries(int num){
-    int a = 0;b = 1,c;
+    int a = 0;
+    int b = 1,c;
     if(num==1){
         printf("0");
     }
