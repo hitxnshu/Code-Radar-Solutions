@@ -15,11 +15,10 @@ int main(){
         for(int j = i;j < length;j++){
             if(ch == string[j]){
                 count++;
-                visited[(unsigned char)ch] = 1;
-                
             }
         }
         printf("%c: %d\n",ch,count);
+         visited[(unsigned char)ch] = 1;
  
         
         }
