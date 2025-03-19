@@ -6,7 +6,7 @@ int main(){
     scanf("%s",&string);
     int length = strlen(string);
     if(strcmp(string,"") == 0){
-        printf("No");
+        printf("Yes");
         return 0;
     }
     else{
