@@ -16,7 +16,7 @@ int main(){
             count++;
             }
         }
-        if(count>(n/2)){
+        if(count>int(n/2)){
             printf("%d",arr[i]);
             found = 1;
             break;
