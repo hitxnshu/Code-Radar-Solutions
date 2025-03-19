@@ -5,7 +5,7 @@ int main(){
     char string[20];
     scanf("%s",&string);
     int length = strlen(string);
-    if(strcmp(string,' ') == 0){
+    if(strcmp(string,"") == 0){
         printf("No");
     }
     else{
