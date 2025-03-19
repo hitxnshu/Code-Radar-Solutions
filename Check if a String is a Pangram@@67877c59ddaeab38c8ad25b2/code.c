@@ -4,7 +4,7 @@
 
 int main(){
     char sen[100];
-    int pangram = 0;
+    int pangram = 1;
     fgets(sen, sizeof(sen), stdin);
     int length = strlen(sen);
     
@@ -16,16 +16,12 @@ int main(){
            sen[i] != 'p' && sen[i] != 'q' && sen[i] != 'r' && sen[i] != 's' && sen[i] != 't' && 
            sen[i] != 'u' && sen[i] != 'v' && sen[i] != 'w' && sen[i] != 'x' && sen[i] != 'y' && 
            sen[i] != 'z') {
-            pangram = 1;  
+            printf("No");
+            pangram = 0; 
         }
     }
     
     if(pangram){
         printf("Yes");
     }
-    else{
-        printf("No");
-    }
-    
-    return 0;
 }
