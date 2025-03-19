@@ -5,6 +5,7 @@ int main(){
     int arr[n];
     int temp = 0;
     int count = 0;
+    int found  = 0;
     for(int i = 0;i < n;i++){
         scanf("%d",&arr[i]);
     }
