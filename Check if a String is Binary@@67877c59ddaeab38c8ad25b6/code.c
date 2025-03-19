@@ -7,7 +7,7 @@ int main(){
     int length = strlen(string);
     if(strcmp(string,"") == 0){
         printf("No");
-        break;
+        return 0;
     }
     else{
     for(int i = 0;i < length;i++){
