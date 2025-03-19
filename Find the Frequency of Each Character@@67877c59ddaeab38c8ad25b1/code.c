@@ -7,9 +7,9 @@ int main(){
     scanf("%s",&string);
     int length = strlen(string);
     for(int i = 0;i < length;i++){
-        else{
-            if(visited[unsigned char(string[i])])
+            if(visited[(unsigned char)string[i]]){
             continue;
+            }
         ch = string[i];
         int count = 0;
         for(int j = i;j < length;j++){
