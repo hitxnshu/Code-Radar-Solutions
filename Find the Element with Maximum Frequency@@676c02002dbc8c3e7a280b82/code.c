@@ -23,10 +23,10 @@ int main(){
 
     }
     for(int i = 0;i < n;i++){
-        tempo = arr[i];
+        tempo = arr2[i];
         for(int j = i;j < n;j++){
-            if(arr[j]>tempo){
-                tempo = arr[j];
+            if(arr2[j]>tempo){
+                tempo = arr2[j];
             }
         }
 
