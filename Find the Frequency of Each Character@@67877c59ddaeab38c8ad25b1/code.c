@@ -4,7 +4,7 @@ int main(){
     char string[30];
     char ch;
     int visited[256] = {0};
-    scanf("%s",&string);
+    fgets(string,sizeof(string),stdin);
     int length = strlen(string);
     for(int i = 0;i < length;i++){
             if(visited[(unsigned char)string[i]]){
@@ -26,4 +26,5 @@ int main(){
 
 
 
+// VERY VERY VERY IMPORTANT
 //(unsigned char)ch ensures that ch is treated as a valid index between 0-255 in the visited array
