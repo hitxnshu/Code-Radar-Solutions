@@ -25,6 +25,6 @@ int main(){
         }
     }
 
-}
+
 
 //(unsigned char)ch ensures that ch is treated as a valid index between 0-255 in the visited array
