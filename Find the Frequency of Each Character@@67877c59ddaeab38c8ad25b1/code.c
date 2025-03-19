@@ -3,11 +3,11 @@
 int main(){
     char string[30];
     char ch;
-    int count = 0;
     scanf("%s",&string);
     int length = strlen(string);
     for(int i = 0;i < length;i++){
         ch = string[i];
+        int count = 0;
         for(int j = i;j < length;j++){
             if(ch == string[j]){
                 count++;
