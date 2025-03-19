@@ -18,6 +18,7 @@ int main(){
            sen[i] != 'z') {
             printf("No");
             pangram = 0; 
+            break;
         }
     }
     
