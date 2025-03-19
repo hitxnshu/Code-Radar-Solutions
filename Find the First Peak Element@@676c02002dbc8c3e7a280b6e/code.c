@@ -13,24 +13,25 @@ int main(){
            if(arr[i]>arr[i+1]){
             temp = arr[i];
                 printf("%d",temp);
-                break;
                 found = 1;
+                break;
+                
            }
         }
         else if(i == n-1){
            if(arr[i]>arr[i-1]){
             temp = arr[i];
                 printf("%d",temp);
-                break;
                 found = 1;
+                break;
            }
         }
         else{
             if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
                 temp = arr[i];
                 printf("%d",temp);
+                found = 1;
                 break;
-                found = 1; 
             }
         }
      }
@@ -38,3 +39,4 @@ int main(){
         printf("-1");
      }
 }
+// HERE IN IF ELSE LOOP FOUND = 1 NEEDED TO BE WRITTEN BEFORE BREAK
