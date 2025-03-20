@@ -4,6 +4,7 @@ int main(){
     char string[20];
     scanf("%s",&string);
     int found = 0;
+    char ch ; 
     int length = strlen(string);
     for(int i = 0;i < length;i++){
         for(int j = i+1;j < length;j++){
@@ -13,7 +14,7 @@ int main(){
             }
         }
         if(!found){
-            char ch = string[i];
+            ch = string[i];
         } 
     }
     if(found){
