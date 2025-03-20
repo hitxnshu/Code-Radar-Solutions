@@ -1,4 +1,4 @@
-
+#include<stdio.h>
 #include<string.h>
 int caesarCipher(char message[], int shift, char encrypted[]){
     int length = strlen(message);
