@@ -15,13 +15,9 @@ int main(){
         }
         if(!found){
             ch = string[i];
+            printf("%c",ch);
         } 
     }
-    if(found){
-        printf("-");
-    }
-    else{
-        printf("%c",ch);
-    }
+
 
 }
