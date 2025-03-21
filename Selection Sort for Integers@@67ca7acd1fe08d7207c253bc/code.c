@@ -1,21 +1,16 @@
 void selectionSort(int arr[],int n){
-    int temp,tempo;
+    int temp = 0;
     for(int i = 0;i < n-1;i++){
-       for(int j = i+1;j < n-1;j++){
-        temp = arr[j];
-        for(int k = j+1;k < n-1;k++){
-            if(arr[k]<temp){
-                temp = arr[k];
-            }
+       for(int j = i+1;j < n;j++){
+           if(arr[j]<arr[i]){
+             temp = arr[i];
+             arr[i] = arr[j];
+             arr[j] = temp;
+           }
         }
 
        }
-       if(arr[i]<temp){
-          tempo = arr[i];
-          arr[i] = temp;
-          temp = tempo;
-       }
-    }
+
 }
 void printArray(int arr[],int n){
     for(int i = 0;i < n;i++){
