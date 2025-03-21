@@ -8,10 +8,9 @@ void selectionSort(char arr[],int n){
                 arr[j] = ch;
             }
         }
-    }
+    }}
 void printArray(char arr[], int n){
         for(int i = 0;i < n;i++){
-            printf("%c",arr[i]);
+            printf("%c ",arr[i]);
         }
     }
-}
