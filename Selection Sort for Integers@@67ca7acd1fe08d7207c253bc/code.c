@@ -1,4 +1,4 @@
-selectionSort(int arr[],int n){
+void selectionSort(int arr[],int n){
     int temp,tempo;
     for(int i = 0;i < n-1;i++){
        for(int j = i+1;j < n-1;j++){
@@ -17,7 +17,7 @@ selectionSort(int arr[],int n){
        }
     }
 }
-printArray(int arr[],int n){
+void printArray(int arr[],int n){
     for(int i = 0;i < n;i++){
         printf("%d ",arr[i]);
     }
