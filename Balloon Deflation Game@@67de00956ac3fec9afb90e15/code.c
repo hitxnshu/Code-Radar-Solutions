@@ -17,7 +17,7 @@ void deflateBalloons(int air[],int n){
         printf("%d",count);
         small = air[i];
         for(int j = i+1;j < n;j++){
-            if(arr[j]<small){
+            if(air[j]<small){
                 small = arr[j];
             }
         }
