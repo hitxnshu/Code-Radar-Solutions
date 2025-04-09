@@ -18,7 +18,7 @@ void deflateBalloons(int air[],int n){
         small = air[i];
         for(int j = i+1;j < n;j++){
             if(air[j]<small){
-                small = arr[j];
+                small = air[j];
             }
         }
         for(int j = 0;j < n;j++){
