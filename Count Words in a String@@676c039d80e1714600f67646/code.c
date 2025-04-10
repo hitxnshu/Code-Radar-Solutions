@@ -1,20 +1,14 @@
 #include<stdio.h>
-#include<string.h>
-#include<ctype.h>
 int main(){
-    char sen[100];
-    char c;
-    fgets(sen,sizeof(sen),stdin);
-    int count = 0;
-    int length = strlen(sen);
-    if(strcmp(sen, "\n") == 0){
-        printf("0");
-    }
-    else{
-    for(int i = 0;i < length;i++){
-        if(sen[i]==' ' && sen[i-1]!= ' ' && sen[i+1]!= ' '){
-            count++;
+    char string[100];
+    fgets(string,sizeof(string),stdin);
+    int word = 1;
+    for(int i = 0;i < n;i++){
+        whilo(string[i] != '\0'){
+            if(a[i] == ''){
+               word++;
+            }
         }
     }
-    printf("%d",count+1);
-}}
+}
+printf("%d",word)
