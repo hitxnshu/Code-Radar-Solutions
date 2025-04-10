@@ -3,7 +3,7 @@
 int main(){
     char string[100];
     int maxCount = 0;
-    char ch;
+    char ch = 'a';
     fgets (string,sizeof(string),stdin);
     int length = strlen(string);
     for(int i = 0;i < length;i++){
