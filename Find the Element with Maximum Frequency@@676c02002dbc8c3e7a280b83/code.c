@@ -18,6 +18,11 @@ int main(){
         if(count>maxCount){
            ans = arr[i];
         }
+        else if(count == maxCount){
+            if(ans > arr[i]){
+                ans = arr[i];
+            }
+        }
     }
     printf("%d",ans);
 }
