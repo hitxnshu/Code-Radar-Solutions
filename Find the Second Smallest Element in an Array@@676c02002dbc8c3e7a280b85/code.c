@@ -1,22 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    int n,small = 0,num = 0;
+    int n;
     scanf("%d",&n);
     int arr[n];
     for(int i = 0;i < n;i++){
         scanf("%d",&arr[i]);
     }
-    small = arr[0];
-    for(int j = 1;j < n;j++){
-        if (arr[j]<small){
-            small = arr[j];
+    for(int i = 0;i < n;i++){
+        for(int j = i+1;j < n;j++){
+            if(arr[j]<arr[i]){
+                temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
         }
     }
-    for(int k = 1;k < 100;k++){
-        for(int a = 0; a < n;a++){
-        if((small+k) == arr[a]){
-            num = small + k;
-        }
-    }}
-    printf("%d",num);
+    printf("%d",arr[n-2]);
 }
