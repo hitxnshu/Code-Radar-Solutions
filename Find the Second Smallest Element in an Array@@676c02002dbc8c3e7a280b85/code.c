@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
     int n;
+    int boool = 0;
     scanf("%d",&n);
     int arr[n];
     int temp = 0;
@@ -16,10 +17,19 @@ int main(){
             }
         }
     }
-    if(n>1 && (arr[1] != arr[0])){
-        printf("%d",arr[1]);
+if(n<=1){
+    printf("-1");
+}
+
+for(int i = 0;i < n;i++){
+    if(arr[i]!=arr[i+1]){
+        printf("%d",arr[i+1]);
+        boool = 1;
     }
-    else{
-         printf("-1");
-    }
-    }
+ 
+}
+if(!boool){
+    printf("-1");
+}
+ 
+}
