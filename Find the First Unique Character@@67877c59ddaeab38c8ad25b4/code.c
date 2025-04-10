@@ -14,11 +14,12 @@ int main(){
         }
         if(count == 1){
            ch = string[i];
-           return
+           goto end;
         }
         else{
             ch = '-';
         }
     }
+    end:
     printf("%c",ch);
 }
