@@ -17,6 +17,11 @@ int main(){
             maxCount = count;
             ch = string[i];
         }
+        else if(count == maxCount){
+            if(ch>string[i]){
+                ch = string[i];
+            }
+        }
     }
     printf("%c",ch);
 }
