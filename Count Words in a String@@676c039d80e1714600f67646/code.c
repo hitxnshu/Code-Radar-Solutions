@@ -10,6 +10,6 @@ int main(){
             }
             i++;
         }
+        printf("%d",word)
     }
 
-printf("%d",word)
