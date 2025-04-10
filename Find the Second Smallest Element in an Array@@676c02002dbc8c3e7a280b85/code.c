@@ -16,5 +16,7 @@ int main(){
             }
         }
     }
-    printf("%d",arr[1]);
-}
+    if(n>1 && arr[1] != arr[0]){
+        printf("%dd",arr[1]);
+    }
+    }
