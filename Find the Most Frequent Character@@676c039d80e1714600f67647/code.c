@@ -1,31 +1,20 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char sen[100];
-    char ch,ch1;
+    char string[100];
     int count = 0;
-    fgets(sen,sizeof(sen),stdin);
-    int length = strlen(sen);
+    int maxCount = 0;
+    fgets (string,sizeof(string),stdin);
+    int length = strlen(string);
     for(int i = 0;i < length;i++){
-        ch = sen[i];
         for(int j = i+1;j < length;j++){
-            if(ch == sen[j]){
-                ch1 = sen[j];
+            if(string[i] == string[j]){
                 count++;
             }
         }
-    }
-    if(count > 0){
-       printf("%c",ch1);
-    }
-    else if(count == 0){
-        for(char ch2 = 'a';ch2 < 'z';ch2++){
-        for(int i = 0;i < length;i++){
-            if(sen[i]==ch2){
-                printf("%c",ch2);
-                break;
-            }
-        }
+        if(count>maxCount){
+            maxCount = count;
         }
     }
+    printf("%d",maxCount);
 }
