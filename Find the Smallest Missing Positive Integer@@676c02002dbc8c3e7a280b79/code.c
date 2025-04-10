@@ -16,7 +16,7 @@ int main(){
             }
         }
     }
-    for(int i = 0;i < n;i++){
+    for(int i = 0;i <= n;i++){
         int j = 1;
         while(arr[i]>0){
             if(arr[i]!=j){
