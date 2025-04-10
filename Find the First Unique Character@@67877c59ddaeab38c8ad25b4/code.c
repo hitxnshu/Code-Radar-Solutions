@@ -1,24 +1,23 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char string[20];
-    char ch1;
-    int nrep = 1;
-    scanf("%s",&string);
+    char string[100];
+    fgets(string,sizeof(string),stdin);
+    char ch;
     int length = strlen(string);
     for(int i = 0;i < length;i++){
-    char ch = string[i];
-    for(int j = 1;j < length;j++){
-        if(string[j]==ch){
-            nrep= 0;
-            printf("-");
-            break;
+        int count = 1;
+        for(int j = i+1;j < length;j++){
+            if(string[i] == string[j]){
+                count++;
+            }
+        }
+        if(count == 1){
+           ch = string[i];
         }
         else{
-            ch1 = ch;
+            ch = '-'
         }
-    }}
-    if(!nrep){
-        printf("%c",ch1);
     }
+    printf("%c",ch);
 }
