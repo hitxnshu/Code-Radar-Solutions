@@ -4,7 +4,7 @@ int main(){
     fgets(string,sizeof(string),stdin);
     int word = 1;
     int i = 0;
-        whilo(string[i] != '\0'){
+        while(string[i] != '\0'){
             if(a[i] == ''){
                word++;
             }
