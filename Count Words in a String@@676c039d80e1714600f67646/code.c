@@ -5,7 +5,7 @@ int main(){
     int word = 1;
     int i = 0;
         while(string[i] != '\0'){
-            if(string[i] == ' '){
+            if(string[i] == ' ' && string[i+1] !=' ' && string[i-1] != ' '){
                word++;
             }
             i++;
