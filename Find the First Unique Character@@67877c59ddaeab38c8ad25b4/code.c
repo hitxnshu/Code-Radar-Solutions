@@ -16,7 +16,7 @@ int main(){
            ch = string[i];
         }
         else{
-            ch = '-'
+            ch = '-';
         }
     }
     printf("%c",ch);
