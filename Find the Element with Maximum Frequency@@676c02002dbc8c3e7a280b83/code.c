@@ -16,6 +16,7 @@ int main(){
             }
         }
         if(count>maxCount){
+           maxCount  = count
            ans = arr[i];
         }
         else if(count == maxCount){
