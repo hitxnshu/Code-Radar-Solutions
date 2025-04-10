@@ -1,22 +1,30 @@
 #include <stdio.h>
 int main(){
-    int n,found = 0;
+    int n;
     scanf("%d",&n);
     int arr[n];
     for(int i = 0;i < n;i++){
         scanf("%d",&arr[i]);
     }
-    int num = 0;
-    for(int j = 1;j < 100;j++){
-         num = j;
-        for(int i = 0;i < n;i++){
-            if(arr[i]==j){
-                found = 1;
-                return 0;
+    int temp = 0;
+    for(int i = 0;i < n;i++){
+        for(int j = i+1;j < n;j++){
+            if(arr[i] == arr[j]){
+                temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
             }
         }
     }
-    if(!found){
-        printf("%d",num);
+    int j = 1;
+    for(int i = 0;i < n;i++){
+        while(arr[i]>0){
+            if(arr[i]!=j){
+              printf("%d",j);
+              return 0;
+            }
+            j++;
+        }
     }
+
 }
