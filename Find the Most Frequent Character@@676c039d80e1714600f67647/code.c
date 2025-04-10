@@ -7,7 +7,7 @@ int main(){
     fgets (string,sizeof(string),stdin);
     int length = strlen(string);
     for(int i = 0;i < length;i++){
-        int count = 0;
+        int count = 1;
         for(int j = i+1;j < length;j++){
             if(string[i] == string[j]){
                 count++;
