@@ -14,7 +14,7 @@ int main(){
         }
         if(count == 1){
            ch = string[i];
-           break;
+           return
         }
         else{
             ch = '-';
