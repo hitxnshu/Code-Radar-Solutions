@@ -12,7 +12,7 @@ int main(){
     for(int i = 0;i < n;i++){
     scanf("%d",&s[i].roll);
     scanf("%s",&s[i].name);
-    scanf("%.2f",&s[i].marks);
+    scanf("%f",&s[i].marks);
     }
     for(int i = 0;i < n;i++){
         for(int j = i+1;j < n;j++){
