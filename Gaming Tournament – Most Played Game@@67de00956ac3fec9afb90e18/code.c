@@ -14,7 +14,6 @@ int mostPlayedGame(int games[], int n){
         }
         if(count == maxCount){
             printf("%d",games[i]);
-            return;
         }
     }
     return number;
