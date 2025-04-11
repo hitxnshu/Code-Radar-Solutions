@@ -3,7 +3,7 @@
 int main(){
     char string[20];
     scanf("%s",&string);
-    char ch ; 
+    int found = 0;
     int length = strlen(string);
     for(int i = 0;i < length;i++){
         int count = 1;
@@ -13,12 +13,13 @@ int main(){
             }
         }
         if(count<=1){
-            ch = string[i];
-            break;
-            break;
+            printf("%c",string[i]);
+            found = 1;
         }
     }
-    printf("%c",ch);
+    if(!found){
+        printf("-");
+    }
 
 
 }
