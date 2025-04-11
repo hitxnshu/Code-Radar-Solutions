@@ -8,8 +8,8 @@ int main(){
     int n;
     scanf("%d",&n);
     int temp = 0;
+    struct Student s[n];
     for(int i = 0;i < n;i++){
-    struct Student s[i];
     scanf("%d",&s[i].roll);
     scanf("%s",&s[i].name);
     scanf("%f",&s[i].marks);
