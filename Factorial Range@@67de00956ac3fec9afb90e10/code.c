@@ -1,4 +1,11 @@
 void factorialRange(int start,int end){
+    if(start<0 ||end <0){
+        printf("Invalid range");
+    }
+    else if(start>end){
+             printf("Invalid range");
+    }
+    else{
     for(int i = start;i<=end;i++){
         int prod = 1;
         if(i==0 || i==1){
@@ -11,4 +18,4 @@ void factorialRange(int start,int end){
             printf("%d\n",prod);
         }
     }
-}
+}}
