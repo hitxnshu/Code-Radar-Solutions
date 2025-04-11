@@ -17,7 +17,7 @@ int main(){
     for(int i = 0;i < n;i++){
         for(int j = i+1;j < n;j++){
             if(s[i].marks>s[j].marks){
-                struct Student temp = s[i];
+                struct Student temp = s[i];// IT SWAPS FULL STRUCTURE 
                 s[i] = s[j];
                 s[j] = temp;
             }
