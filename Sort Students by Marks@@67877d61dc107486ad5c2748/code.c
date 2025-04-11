@@ -24,9 +24,9 @@ int main(){
         }
     }
     for(int i = 0;i < n;i++){
-        printf("%d",s[i].roll);
-        printf("%s",s[i].name);
-        printf("%f",s[i].marks);
+        printf("Roll Number: %d, ",s[i].roll);
+        printf("Name: %s, ",s[i].name);
+        printf("Marks: %f\n",s[i].marks);
     }
 
 }
