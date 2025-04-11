@@ -3,7 +3,7 @@ struct Student{
     int roll;
     char name[100];
     float marks;
-}
+};
 int main(){
     int n;
     scanf("%d",&n);
