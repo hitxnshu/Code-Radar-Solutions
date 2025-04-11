@@ -17,9 +17,9 @@ int main(){
     for(int i = 0;i < n;i++){
         for(int j = i+1;j < n;j++){
             if(s[i].marks>s[j].marks){
-                temp = s[i].marks;
-                s[i].marks = s[j].marks;
-                s[j].marks = temp;
+                temp = s[i];
+                s[i] = s[j];
+                s[j] = temp;
             }
         }
     }
