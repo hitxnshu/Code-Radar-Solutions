@@ -12,8 +12,8 @@ int mostPlayedGame(int games[], int n){
             maxCount = count;
             number = games[i];
         }
-        if(count <= maxCount){
-            return games[i];
+        if(count <= maxCount && mumber>string[i]){
+            number = string[i];
         }
     }
     return number;
