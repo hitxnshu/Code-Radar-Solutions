@@ -9,6 +9,7 @@ int main(){
     scanf("%d",&n);
     int temp = 0;
     for(int i = 0;i < n;i++){
+    struct Student s[i]
     scanf("%d",&s[i].roll);
     scanf("%s",&s[i].name);
     scanf("%f",&s[i].marks);
