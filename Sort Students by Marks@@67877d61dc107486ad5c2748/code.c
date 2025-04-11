@@ -7,7 +7,6 @@ struct Student{
 int main(){
     int n;
     scanf("%d",&n);
-    struct Student s1;
     int temp = 0;
     for(int i = 0;i < n;i++){
     scanf("%d",&s[i].roll);
