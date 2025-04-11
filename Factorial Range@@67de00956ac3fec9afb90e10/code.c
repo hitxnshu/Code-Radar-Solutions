@@ -8,7 +8,7 @@ void factorialRange(int start,int end){
             for(int j = 1;j<=i;j++){
                  prod = prod*j;
             }
-            printf("%d",prod);
+            printf("%d\n",prod);
         }
     }
 }
