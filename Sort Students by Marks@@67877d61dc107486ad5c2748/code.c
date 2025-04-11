@@ -23,7 +23,7 @@ int main(){
             }
         }
     }
-    for(int i = 0;i < n;i++){
+    for(int i = n;i > 0;i--){
         printf("Roll Number: %d, ",s[i].roll);
         printf("Name: %s, ",s[i].name);
         printf("Marks: %.2f\n",s[i].marks);
