@@ -14,10 +14,10 @@ int main(){
         }
         if(count<=1){
             ch = string[i];
-            goto end;
+            break;
+            break;
         }
     }
-    end:
     printf("%c",ch);
 
 
