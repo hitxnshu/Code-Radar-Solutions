@@ -1,6 +1,6 @@
 int mostPlayedGame(int games[], int n){
     int maxCount = 0;
-    int number = games[i];
+    int number = games[0];//REMEMBER
     for(int i = 0;i < n;i++){
         int count = 0;
         for(int j = i+1;j < n;j++){
